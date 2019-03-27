@@ -1,0 +1,87 @@
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  #bg-exit {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000000;
+  }
+
+  .s2 {margin-top:75px}
+
+  .faded {opacity: 0.45; -webkit-transition: all 0.8s ease-out;
+    -moz-transition: all 0.8s ease-out;
+    transition: all 0.8s ease-out;}
+
+  .slide {position: absolute; left:0; width: 100%; display: none;}
+
+  .slide1 {position: absolute; left:0; width: 100%; height: 100%;}
+
+  .slide2 {position: absolute; left:0; width: 100%; height: 100%;}
+
+  .slideUp {margin-top:-10px; -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;}
+
+  #container,
+  .overlay {
+    text-align: center;
+    width: 298px;
+    height: 598px;
+    overflow: hidden;
+    position: relative;
+    background-color: #ffffff;
+    background-repeat: repeat-x;
+    cursor: pointer;
+    border:1px #000 solid;
+  }
+
+  .overlay {
+    z-index: 99;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .hide {
+    opacity: 0;
+  }
+
+
+.hideBox {-webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out; position: relative; z-index: 100000;}
+
+    .s7 {bottom: 0;}
+
+     .s5 {
+    width: 181px;
+    z-index: 10000;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 11px;
+    padding: 12px 10px 12px 10px;
+    position: absolute;
+    left: 50px;
+    bottom: 130px;
+    background-color: #a33038;
+    font-weight: 100;
+  }
+
+    .s6 {font-family: Arial, Helvetica, sans-serif; font-size: 8px; position: absolute;
+    bottom: 15px;
+    z-index: 1000;
+    
+    text-align: center;
+    color: #000; line-height: 10px;}
+
+

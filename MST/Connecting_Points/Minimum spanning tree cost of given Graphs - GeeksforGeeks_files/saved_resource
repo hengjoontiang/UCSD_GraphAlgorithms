@@ -1,0 +1,31 @@
+
+var ftGUID_3608563="3745AFD15BB99F";
+var ftConfID_3608563="12459416";
+var ftParams_3608563="ftx=&fty=&ftadz=&ftscw=&ft_custom=&ft_section=MB_SING&ftOBA=1&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fgoogleads.g.doubleclick.net%2Fpagead%2Fads%3Fclient%3Dca-pub-9465609616171866%26output%3Dhtml%26h%3D280%26slotname%3D7089558833%26adk%3D1176260098%26adf%3D3575064831%26w%3D459%26fwrn%3D4%26fwrnh%3D100%26lmt%3D1552897615%26rafmt%3D1%26guci%3D2.2.0.0.2.2.0.0%26format%3D459x280%26url%3Dhttps%253A%252F%252Fwww.geeksforgeeks.org%252Fminimum-spanning-tree-cost-of-given-graphs%252F%26flash%3D0%26fwr%3D0%26resp_fmts%3D3%26wgl%3D1%26adsid%3DAGt39rS1_D2ZnsmXS4ZWheAFBBqGIpELeuG9p5nJLLRSkrsnl7LLFZilPbRP-xv9TCqp%26dt%3D1552897545384%26bpp%3D4%26bdt%3D556%26idt%3D23%26shv%3Dr20190313%26cbv%3Dr20190131%26saldr%3Daa%26abxe%3D1%26prev_fmts%3D0x0%252C839x90%252C300x600%252C300x600%252C895x90%252C895x90%26nras%3D1%26correlator%3D4662615723390%26frm%3D20%26pv%3D1%26ga_vid%3D116378798.1539431964%26ga_sid%3D1552897475%26ga_hid%3D1336147047%26ga_fc%3D1%26iag%3D0%26icsg%3D4264594699365056%26dssz%3D60%26mdo%3D0%26mso%3D2097152%26u_tz%3D480%26u_his%3D1%26u_java%3D0%26u_h%3D1080%26u_w%3D1920%26u_ah&ft_keyword=MB_SING&cachebuster=736391.085716269";
+var ftKeyword_3608563="mb_sing";
+var ftCustom_3608563="";
+var ftSection_3608563="MB_SING";
+var ftSegment_3608563="";
+var ftSegmentList_3608563=[];
+var ftRuleMatch_3608563="00010000";
+var ftTimestamp_3608563="1552897630";
+var ftGeoC2_3608563="sg";
+var ftGeoState_3608563="01";
+var ftGeoCity_3608563="singapore";
+var ftISP_3608563="m1 limited";
+var ftSpeed_3608563="mobile";
+var ftDMA_3608563="-1";
+var ftLong_3608563="103.85";
+var ftLat_3608563="1.283";
+var ftPostal_3608563="228211";
+var ftTimeZone_3608563="800";
+var ftMobileCarrier_3608563="m1";
+var ftImp3608563 = {};
+ftImp3608563.privacy = "x";
+ftImp3608563.guidAge = "349";
+ftImp3608563.impID = "6E11C200-62C4-F0CA-8A55-9ACEC098A656";
+ftImp3608563.duid = "FT:3745AFD15BB99F";
+ftImp3608563.ft_tpplid = "";
+ftImp3608563.ft_c = {};
+
+document.write('<scr'+'ipt src="https://cdn.flashtalking.com/xre/360/3608563/2485278/js/j-3608563-2485278.js" id="ftscript_m3608563" name="ftscript_m3608563"></scr'+'ipt>');

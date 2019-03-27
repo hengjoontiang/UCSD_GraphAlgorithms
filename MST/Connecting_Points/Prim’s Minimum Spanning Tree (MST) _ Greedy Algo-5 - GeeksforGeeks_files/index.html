@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)https://s0.2mdn.net/5404449/1548126624715/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>DBS LiveFresh</title>
+  <meta name="ad.size" content="width=160,height=600">
+  <script type="text/javascript">
+    var clickTag = "";
+  </script>
+  <link rel="stylesheet" href="./style.min.css">
+<script type="text/javascript">
+    
+      (function() {
+        var relegateNavigation = '';
+        var handleClickTagMessage = function(e) {
+          try {
+            var eventData = JSON.parse(e.data);
+          } catch (err) {
+            return;
+          }
+          if (eventData.isInitClickTag) {
+            if (eventData.clickTags) {
+              for (var i = 0; i < eventData.clickTags.length; i++) {
+                var clkTag = eventData.clickTags[i];
+                window[clkTag.name] = clkTag.url;
+              }
+            } else if (eventData.clickTag) {
+              window.clickTag = eventData.clickTag;
+            }
+            relegateNavigation = eventData.relegateNavigation;
+          }
+        };
+
+        if (open.call) {
+          window.open = function(open) {
+            return function(url, name, features) {
+              if (relegateNavigation === 'parent') {
+                var message = {'clickTag': url, 'isPostClickTag': true};
+                parent.postMessage(JSON.stringify(message), '*');
+              } else {
+                var args = [url, name];
+                if (features) {
+                  args.push(features);
+                }
+                open.apply(window, args);
+              }
+            };
+          }(window.open);
+        }
+
+        if (window.addEventListener) {
+          window.addEventListener(
+              'message', handleClickTagMessage, false);
+        } else {
+          window.attachEvent('onmessage', handleClickTagMessage);
+        }
+      })();
+    
+  </script></head>
+
+<body>
+  <div class="ad">
+    <div class="banner">
+      <div class="container">
+        <a class="wrap" href="javascript:window.open(window.clickTag)">
+
+          <div class="spark">
+            <img src="./dbs-spark.png">
+          </div>
+
+          <div class="slide slide-1 animated fadeOut fast5x delay20">
+            <div class="s1-camo1">
+              <img src="./frame1-camo-01.gif" class="">
+            </div>
+            <div class="s1-camo2">
+              <img src="./frame1-camo-02.gif" class="">
+            </div>
+            <div class="s1-message">
+              <img src="./frame1-livefresh-01.png" class="livefresh">
+              <img src="./frame1-text-01.png" class="text1">
+              <img src="./frame1-text-02.png" class="text2">
+              <img src="./frame1-text-03.png" class="text3">
+            </div>
+          </div>
+
+          <div class="slide slide-2 animated fadeOut fast5x delay90">
+            <div class="s2-camo1 animated fadeOut fast5x delay40">
+              <img src="./frame2-camo-01.gif" class="animated fadeIn fast5x delay20">
+            </div>
+            <div class="animated slideOutLeft fast1x easeOutExpo delay40">
+              <div class="s2-text-1 animated fadeIn fast5x delay20">
+                <img src="./frame2-text-01.png" class="">
+              </div>
+              <div class="s2-mexico animated fadeIn fast5x delay20">
+                <img src="./frame2-mexico-01.png" class="animated pulse delay25">
+              </div>
+            </div>
+            <div class="s2-camo2 animated fadeOut fast5x delay60">
+              <img src="./frame2-camo-02.gif" class="animated fadeIn fast5x delay40">
+            </div>
+            <div class="s2-text-2 animated slideOutLeft fast1x easeOutExpo delay60">
+              <img src="./frame2-text-02.png" class="animated slideInRight fast2x easeInExpo delay40">
+            </div>
+            <div class="s2-camo3">
+              <img src="./frame2-camo-03.gif" class="animated fadeIn fast5x delay60">
+            </div>
+            <div class="s2-camo4">
+              <img src="./frame2-camo-04.gif" class="animated fadeIn fast5x delay60">
+            </div>
+            <div class="s2-text-3">
+              <img src="./frame2-text-03.png" class="animated slideInRight fast2x easeInExpo delay60">
+            </div>
+            <div class="terms animated fadeIn fast1x delay30">
+              <img src="./terms.png" class="">
+            </div>
+            <div class="s2-hero animated fadeIn fast5x delay20">
+              <img src="./frame2-hero-01.jpg" class="animated pan-anim fast1x easeOutExpo delay40">
+            </div>
+          </div>
+
+          <div class="slide slide-3 animated fadeOut fast5x delay120">
+            <div class="s3-camo1">
+              <img src="./frame3-camo-01.gif" class="animated fadeIn fast5x delay90">
+            </div>
+            <div class="s3-camo2">
+              <img src="./frame3-camo-02.gif" class="animated fadeIn fast5x delay90">
+            </div>
+            <div class="s3-text-1 animated fadeIn fast5x delay90">
+              <img src="./frame3-text-01.png" class="">
+            </div>
+            <div class="s3-text-2 animated fadeIn fast5x delay95">
+              <img src="./frame3-text-02.png" class="animated pulse delay95">
+            </div>
+            <div class="terms animated fadeIn fast5x delay90">
+              <img src="./terms.png" class="">
+            </div>
+          </div>
+          
+          <div class="slide slide-4 animated fadeOut fast5x delay140">
+            <div class="s4-camo1">
+              <img src="./frame4-camo-01.gif" class="animated fadeIn fast5x delay120">
+            </div>
+            <div class="s4-camo2">
+              <img src="./frame4-camo-02.gif" class="animated fadeIn fast5x delay120">
+            </div>
+            <div class="s4-text-1 animated fadeIn fast5x delay120">
+              <img src="./frame4-text-01.png" class="">
+            </div>
+            <div class="s4-text-2 animated fadeIn fast5x delay125">
+              <img src="./frame4-text-02.png" class="animated pulse delay125">
+            </div>
+            <div class="terms animated fadeIn fast5x delay120">
+              <img src="./terms.png" class="">
+            </div>
+          </div>
+
+          <div class="slide slide-5 animated fadeOut fast5x delay230">
+
+            <div class="s5-text animated fadeIn fast5x delay140">
+              <img src="./frame5-text-01.png" class="">
+            </div>
+
+            <div class="s5-merchant">
+              <div class="s5-merchant-1 animated fadeIn fast5x delay">
+                <div class="logo animated fadeOut fast5x delay190">
+                  <img src="./prize-flight-icon.gif" class="animated rotateIn fast1x easeOutExpo delay">
+                </div>
+                <div class="text animated fadeOut fast5x delay185">
+                  <img src="./prize-flight-text.png" class="">
+                </div>
+              </div>
+
+              <div class="s5-merchant-2 animated fadeIn fast5x delay">
+                <div class="logo animated fadeOut fast5x delay190">
+                  <img src="./prize-hotel-icon.gif" class="animated rotateIn fast1x easeOutExpo delay">
+                </div>
+                <div class="text animated fadeOut fast5x delay185">
+                  <img src="./prize-hotel-text.png" class="">
+                </div>
+              </div>
+            </div>
+
+            <div class="s5-merchant">
+              <div class="s5-merchant-3 animated fadeIn fast5x delay">
+                <div class="logo">
+                  <img src="./prize-sabotage-icon.gif" class="animated rotateIn fast1x easeOutExpo delay">
+                </div>
+                <div class="text">
+                  <img src="./prize-sabotage-text.png" class="">
+                </div>
+              </div>
+
+              <div class="s5-merchant-4 animated fadeIn fast5x delay">
+                <div class="logo">
+                  <img src="./prize-contiki-icon.gif" class="animated rotateIn fast1x easeOutExpo delay">
+                </div>
+                <div class="text">
+                  <img src="./prize-contiki-text.png" class="">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide slide-6">
+            <div class="s6-card animated fadeIn fast5x delay230">
+              <img src="./frame6-card-01.jpg" class="">
+            </div>
+            <div class="s6-button animated pulsate fast2x delay240">
+              <img src="./frame6-btn-01.png" class="">
+            </div>
+          </div>
+        </a>
+        <!-- Replay -->
+        <div class="refresh animated fadeIn fast5x delay280">
+          <a href="javascript:history.go(0)"><img src="./btn-replay.png"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body></html>
